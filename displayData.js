@@ -1,0 +1,1 @@
+const cardDeck = document.querySelector('')

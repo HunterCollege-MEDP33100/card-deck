@@ -1,6 +1,32 @@
-{
-    "name": ,
-    "type": ,
-    "number": ,
-    "image": ,
-}
+[
+    {
+        "name": "Card 0",
+        "number": "0",
+        "image": "0.png"
+    },
+    {
+        "name": "Card 1",
+        "number": "1",
+        "image": "1.png"
+    },
+    {
+        "name": "Card 2",
+        "number": "2",
+        "image": "2.png"
+    },
+    {
+        "name": "Card 3",
+        "number": "3",
+        "image": "3.png"
+    },
+    {
+        "name": "Card 4",
+        "number": "4",
+        "image": "4.png"
+    },
+    {
+        "name": "Card 5",
+        "number": "5",
+        "image": "5.png"
+    }
+]
