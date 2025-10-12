@@ -1,2 +1,22 @@
 [
+  {
+    "title": "Journey",
+    "image": "images/journey.png"
+  },
+  {
+    "title": "Love",
+    "image": "images/love.png"
+  },
+  {
+    "title": "Shopping",
+    "image": "images/shopping.png"
+  },
+  {
+    "title": "Travel",
+    "image": "images/travel.png"
+  },
+  {
+    "title": "Worldpeace",
+    "image": "images/worldpeace.png"
+  }
 ]
