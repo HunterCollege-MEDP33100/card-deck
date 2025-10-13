@@ -1,52 +1,42 @@
 [
     {
-        "name": "Black Luster Soldier",
-        "type": "Warrior / Ritual / Effect",
-        "attribute": "LIGHT",
-        "level": 8,
-        "attack": 3000,
-        "defense": 2500,
-        "ritual_spell": "Black Luster Ritual",
-        "description": "You can Ritual Summon this card with 'Black Luster Ritual'. Must be Ritual Summoned. You can Tribute monsters whose total Levels equal 8 or more from your hand or field."
+        "id": 144,
+        "name": "Articuno",
+        "types": ["Ice", "Flying"],
+        "region": "Kanto",
+        "lore": "Articuno is a Legendary bird Pokémon that can control ice. It is said to appear to doomed travelers lost in icy regions.",
+        "image": "Images/Articuno.jpg"
     },
     {
-      "name": "Elemental HERO Neos Knight",
-      "type": "Warrior / Fusion / Effect",
-      "attribute": "LIGHT",
-      "level": 7,
-      "attack": 2500,
-      "defense": 1000,
-      "materials": ["Elemental HERO Neos", "1 Warrior-Type monster"],
-      "description": "Must be Fusion Summoned. This card can attack twice during each Battle Phase. This card loses 500 ATK for each Fusion Material Monster used for its Summon."
+        "id": 145,
+        "name": "Zapdos",
+        "types": ["Electric", "Flying"],
+        "region": "Kanto",
+        "lore": "Zapdos is a Legendary bird Pokémon that has the ability to control electricity. It is said to nest in thunderclouds and appear during storms.",
+        "image": "Images/Zapdos.jpg"
     },
     {
-      "name": "Stardust Dragon",
-      "type": "Dragon / Synchro / Effect",
-      "attribute": "WIND",
-      "level": 8,
-      "attack": 2500,
-      "defense": 2000,
-      "materials": ["1 Tuner", "1+ non-Tuner monsters"],
-      "description": "You can Tribute this card to negate and destroy a card that would destroy a card(s) on the field, then Special Summon this card during the End Phase."
+        "id": 146,
+        "name": "Moltres",
+        "types": ["Fire", "Flying"],
+        "region": "Kanto",      
+        "lore": "Moltres is a Legendary bird Pokémon that embodies fire. It is said to bring early spring to the wintry lands it visits.",
+        "image": "Images/Moltros.jpg"
     },
     {
-      "name": "Number 39: Utopia",
-      "type": "Warrior / Xyz / Effect",
-      "attribute": "LIGHT",
-      "rank": 4,
-      "attack": 2500,
-      "defense": 2000,
-      "materials": ["2 Level 4 monsters"],
-      "description": "When any player's monster declares an attack, you can detach 1 material from this card; negate the attack."
+        "id": 249,
+        "name": "Lugia",
+        "types": ["Psychic", "Flying"],
+        "region": "Johto",    
+        "lore": "Lugia is said to be the guardian of the seas. It slumbers at the bottom of the ocean to avoid causing storms with its power.",
+        "image": "Images/Lugia.jpg"
     },
     {
-      "name": "Odd-Eyes Pendulum Dragon",
-      "type": "Dragon / Pendulum / Effect",
-      "attribute": "DARK",
-      "level": 7,
-      "attack": 2500,
-      "defense": 2000,
-      "pendulum_scale": 4,
-      "description": "Pendulum Effect: You can reduce battle damage you take from battles involving a Pendulum Monster you control to 0. Monster Effect: When this card destroys an opponent's monster by battle, inflict double battle damage."
+        "id": 250,
+        "name": "Ho-Oh",
+        "types": ["Fire", "Flying"],
+        "region": "Johto",  
+        "lore": "Ho-Oh is said to bring happiness to those who see it. Its feathers glow in seven colors depending on the angle at which they are struck by light.",
+        "image": "Images/Ho oh.jpg"
     }
 ]
