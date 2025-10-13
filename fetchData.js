@@ -18,6 +18,7 @@ async function getCardDataAsync() {
 }
 
 function displayData(data) {
+    
     for (let i = 0; i < data.length; i++) {
         const el = document.createElement('div')
         let card1;
