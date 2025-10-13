@@ -1,7 +1,5 @@
 #card-deck {
-
     display: flex;
-
 }
 
 .card {
@@ -9,6 +7,6 @@
 
 }
 
-h1{
+h1 {
     text-align: center;
 }

@@ -31,9 +31,9 @@ function animateCards() {
     let tl = gsap.timeline({ defaults: { duration: 1, ease: "power2.out" } });
 
     const positions = [
-        { x: "25vw", y: "10vh" },
-        { x: "45vw", y: "10vh" },
-        { x: "65vw", y: "10vh" },
+        { x: "20vw", y: "10vh" },
+        { x: "40vw", y: "10vh" },
+        { x: "60vw", y: "10vh" },
         { x: "20vw", y: "40vh" },
         { x: "40vw", y: "40vh" },
         { x: "60vw", y: "40vh" }
