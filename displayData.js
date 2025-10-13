@@ -1,5 +1,3 @@
-const cardDeck = document.querySelector('.card-deck')
-
 class Card {
     constructor(name, number, image) {
         console.log('Creating card object...', name, number, image)
@@ -9,7 +7,7 @@ class Card {
         this.image = image;
 
         this.element = document.createElement('div');
-        this.element.classList.add('card');
+        this.element.classList.add('card'); //everytime new card is made, assign it this class name
     }
 
     displayCard() {
