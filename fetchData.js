@@ -10,21 +10,20 @@ function getCardData() {
         })
 }
 
-async function getCardDataAsync() {
-    const response = await fetch('data.json')
-    const data = await response.json()
-    console.log(data)
-    displayData(data)
-}
 
 function displayData(data) {
-    
+
+    const cardDeckContainer = document.getElementById('card-deck')
+
     for (let i = 0; i < data.length; i++) {
         const el = document.createElement('div')
-        let card1;
-        card1.displayCard();
+        let card1 = new Card(data[i].name,data[i].number,data[i].image);
+        let cardElement = card1.displayCard();
+        cardDeckContainer.appendChild(cardElement)
 
     }
+
+
 }
 
-getCardDataAsync();
+getCardData()
