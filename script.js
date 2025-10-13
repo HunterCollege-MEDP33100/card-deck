@@ -4,7 +4,7 @@ const containerElement = document.querySelector('.container');
 class Card {
     // your code goes here
     constructor() {
-
+        
     }
 
     // add your class functions here
