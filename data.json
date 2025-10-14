@@ -1,33 +1,34 @@
 [
 
     {
+        
+        "image":"images/blue_iris.png",
         "code":"18-3943",
-        "name":"Blue Iris",
-        "image":"images/blue_iris.png"
+        "name":"Blue Iris"
     },
 
     {
+        "image":"images/honeysuckle.png",
         "code":"18-2120",
-        "name":"Honeysuckle",
-        "image":"images/honeysuckle.png"
+        "name":"Honeysuckle"
     },
 
-        {
+    {
+        "image":"images/mimosa.png",
         "code":"14-0848",
-        "name":"Mimosa",
-        "image":"images/mimosa.png"
+        "name":"Mimosa"
     },
 
         {
+        "image":"images/radiant_orchid.png",
         "code":"18-3224",
-        "name":"Radiant Orchid",
-        "image":"images/radiant_orchid.png"
+        "name":"Radiant Orchid"
     },
 
         {
+        "image":"images/turquoise.png",
         "code":"15-5519",
-        "name":"Turquoise",
-        "image":"images/turquoise.png"
+        "name":"Turquoise"
     }
 
 ]
