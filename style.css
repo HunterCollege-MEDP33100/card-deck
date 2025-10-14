@@ -1,1 +1,54 @@
-/*Add your styles here*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: fit-content;
+    border: 1px solid rgb(150, 150, 150);
+    margin: 1em;
+
+    flex: 0 0 10%;
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    background: white;
+}
+
+.cardText {
+    line-height: .3em;
+    padding: 0em .4em;
+}
+
+.pantone {
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.code, .name {
+    font-size: .8em;
+    font-weight: 500;
+}
+
+.color {
+    width: 10em;
+    height: 10em;
+    margin: 0;
+}
+
+.reg {
+    vertical-align: super;
+    font-size: x-small;
+}
