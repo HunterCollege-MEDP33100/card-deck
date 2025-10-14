@@ -3,8 +3,10 @@ const containerElement = document.querySelector('.container');
 
 class Card {
     // your code goes here
-    constructor() {
-
+    constructor(code, name, image) {
+        this.code = code;
+        this.name = name;
+        this.image = image;
     }
 
     // add your class functions here
