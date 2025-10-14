@@ -1,40 +1,27 @@
 [
-
     {
-        
         "hex": "#5a5b9f",
-        "code":"18-3943 TPX",
-        "name":"Blue Iris"
+        "code": "18-3943 TPX",
+        "name": "Blue Iris"
     },
-
     {
-        "hex":"#d94f70",
-        "code":"18-2120 TPX",
-        "name":"Honeysuckle"
+        "hex": "#d94f70",
+        "code": "18-2120 TPX",
+        "name": "Honeysuckle"
     },
-
-        {
-        "hex":"#2ca8d7",
-        "code":"15-4535 TSX",
-        "name": "Blue Blossom"
-    },
-
     {
-        "hex":"#f0c05a",
-        "code":"14-0848 TPX",
-        "name":"Mimosa"
+        "hex": "#f0c05a",
+        "code": "14-0848 TPX",
+        "name": "Mimosa"
     },
-
-        {
-        "hex":"#b163a3",
-        "code":"18-3224 TPX",
-        "name":"Radiant Orchid"
+    {
+        "hex": "#b163a3",
+        "code": "18-3224 TPX",
+        "name": "Radiant Orchid"
     },
-
-        {
-        "hex":"#45b5aa",
-        "code":"15-5519 TPX",
-        "name":"Turquoise"
+    {
+        "hex": "#45b5aa",
+        "code": "15-5519 TPX",
+        "name": "Turquoise"
     }
-
 ]
