@@ -2,10 +2,10 @@
 const containerElement = document.querySelector('.container');
 
 class Card {
-    constructor(element, code, name, image) {
+    constructor(element, hex, code, name) {
         this.element = element;
         
-        this.image = image;
+        this.hex = hex;
         this.code = code;
         this.name = name;
 
@@ -13,24 +13,34 @@ class Card {
     }
 
     displayCards() {
-        const imageEl = document.createElement('p');
-        imageEl.classList.add('image');
-        imageEl.innerText = this.image;
-        this.element.appendChild(imageEl);
+        const colorEl = document.createElement('p');
+        colorEl.classList.add('color');
+        colorEl.style.backgroundColor = this.hex;
+        this.element.appendChild(colorEl);
         
+        const cardText = document.createElement('p');
+        cardText.classList.add('cardText');
+        this.element.appendChild(cardText);
+
         const pantoneLabel = document.createElement('p');
+        pantoneLabel.classList.add('pantone');
         pantoneLabel.innerText = "PANTONE";
-        this.element.appendChild(pantoneLabel);
+        cardText.appendChild(pantoneLabel);
+
+        const regSym = document.createElement('span');
+        regSym.classList.add('reg');
+        regSym.innerText = "®";
+        pantoneLabel.appendChild(regSym)
 
         const codeEl = document.createElement('p');
         codeEl.classList.add('code');
         codeEl.innerText = this.code;
-        this.element.appendChild(codeEl);
+        cardText.appendChild(codeEl);
 
         const nameEl = document.createElement('p');
         nameEl.classList.add('name');
         nameEl.innerText = this.name;
-        this.element.appendChild(nameEl);
+        cardText.appendChild(nameEl);
     }
 }
 
@@ -48,7 +58,7 @@ function getCardData() {
 function displayData(data) {
     for (let i = 0; i < data.length; i++) {
         const cardElement = document.createElement('div');
-        const card1 = new Card(cardElement, data[i].code, data[i].name, data[i].image);
+        const card1 = new Card(cardElement, data[i].hex, data[i].code, data[i].name);
         card1.displayCards();
         containerElement.appendChild(cardElement);
     }
