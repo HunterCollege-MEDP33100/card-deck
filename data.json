@@ -1,2 +1,44 @@
 [
+  {
+    "name": "Mole",
+    "origin": "Mexico",
+    "image": "images/mole.jpg",
+    "colorClass": "first-color",
+    "backInfo": "Mole is one of Mexico’s most famous sauces, combining chocolate, chili, and spices. It’s often served over chicken or turkey during celebrations. Key ingredients include sesame seeds, almonds, and various dried chilies. Making mole can take hours, but the rich flavor is worth it!"
+  },
+  {
+    "name": "Pão de Queijo",
+    "origin": "Brazil",
+    "image": "images/bread.jpg",
+    "colorClass": "second-color",
+    "backInfo": "Pão de Queijo is a cheesy bread roll from Brazil, enjoyed as a snack or breakfast item. It’s made with tapioca flour, eggs, and cheese, giving it a chewy texture. It dates back over 300 years and is loved across the country. Try it warm for the best flavor!"
+  },
+  {
+    "name": "Glass Noodle Stir Fry",
+    "origin": "Korea",
+    "image": "images/glass.jpg",
+    "colorClass": "third-color",
+    "backInfo": "This dish, also known as Japchae, uses translucent sweet potato noodles stir-fried with vegetables. It’s commonly served during Korean holidays and celebrations. Ingredients include spinach, carrots, mushrooms, and soy sauce. Light, savory, and slightly sweet, it’s a family favorite."
+  },
+  {
+    "name": "Bandeja Paisa",
+    "origin": "Colombia",
+    "image": "images/bandeja-paisa-.jpg",
+    "colorClass": "fourth-color",
+    "backInfo": "Bandeja Paisa is a hearty Colombian platter featuring rice, beans, plantains, meat, avocado, and fried egg. It’s considered a traditional dish from the Antioquia region. Each ingredient is carefully prepared to balance flavors and textures. It’s perfect for large, festive meals."
+  },
+  {
+    "name": "Pozole",
+    "origin": "Mexico",
+    "image": "images/soup.jpg",
+    "colorClass": "first-color",
+    "backInfo": "Pozole is a traditional Mexican hominy soup, often made with pork or chicken. It’s flavored with chili, garlic, and other spices, then garnished with radishes, lettuce, and lime. This dish is especially popular during holidays like Mexican Independence Day. Rich, flavorful, and comforting in every bowl."
+  },
+  {
+    "name": "Shrimp Scampi",
+    "origin": "Italy",
+    "image": "images/shrimp-scamp.jpg",
+    "colorClass": "second-color",
+    "backInfo": "Shrimp Scampi is a classic Italian-American dish of shrimp cooked in garlic butter, olive oil, and white wine. It’s often served over pasta or with crusty bread. Ingredients include fresh shrimp, lemon juice, and parsley. Quick to prepare, it’s perfect for weeknight dinners or special occasions."
+  }
 ]

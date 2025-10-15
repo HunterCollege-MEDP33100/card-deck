@@ -1,1 +1,109 @@
-/*Add your styles here*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", sans-serif;
+  background: linear-gradient(135deg, #ffcece, #ffe3b0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Grid Layout */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  width: 90%;
+  max-width: 1100px;
+  padding: 40px;
+}
+
+/* Flip Card Wrapper */
+.card {
+  width: 100%;
+  height: 320px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Card Front & Back */
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  backface-visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card-front {
+  background: white;
+}
+
+.card-back {
+  background: #f9f9f9;
+  transform: rotateY(180deg);
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Card Image */
+.card-front img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-color: #f9f9f9; /* placeholder */
+}
+
+/* Card Content */
+.card-content {
+  padding: 15px;
+}
+
+.card h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.3em;
+  color: #4b4b4b;
+}
+
+.card p {
+  font-size: 0.95em;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Pastel Accent Bars */
+.first-color { background-color: #ffcece; }
+.second-color { background-color: #ffc1c8; }
+.third-color { background-color: #ffe3b0; }
+.fourth-color { background-color: #8ed6ff; }
+
+.color-bar {
+  height: 10px;
+  width: 100%;
+}
+.card-back {
+  background: #f9f9f9; /* you could even use a pastel matching the front color */
+  transform: rotateY(180deg);
+  justify-content: center;
+  padding: 20px;
+  font-family: "TSTAR Mono Round W00 Regular", monospace; /* your new font */
+  font-size: 1em; /* adjust smaller than front if you want */
+  color: #616161;
+}

@@ -1,1 +1,12 @@
-/.idea
+Favorite Foods Card Deck
+This project is a digital card deck showcasing six of my favorite foods from around the world. Each card displays:
+* Front: The dish name, origin, image, and a pastel color accent bar. The title uses a fun, gradient “sticker-style” font to make it eye-catching.
+* Back: Fun facts about the dish and a list of key ingredients, displayed in a monospaced font for a contrasting, techy vibe.
+The project uses:
+* JSON to store all card data (name, origin, image, color, back info).
+* JavaScript classes to create card elements dynamically and append them to the page.
+* CSS for styling, pastel colors, fonts, and flip animations on hover.
+* GSAP for a smooth fade-in and bounce animation when the cards load.
+The layout is two rows of three cards, filling the screen nicely and creating an interactive and visually appealing deck.
+Purpose: To combine my love for food and web design, while practicing dynamic DOM manipulation, CSS animations, and class-based JavaScript.
+
