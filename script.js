@@ -12,47 +12,72 @@ class Card {
     }
 
     // add your class functions here
+
+    createCardElement() {
+        // Create outer card container
+        const card = document.createElement('div');
+        card.classList.add('card');
+
+        // Pokémon image
+        const img = document.createElement('img');
+        img.src = this.image;
+        img.alt = this.name;
+        card.appendChild(img);
+
+        // Pokémon name
+        const nameEl = document.createElement('h2');
+        nameEl.innerText = this.name;
+        card.appendChild(nameEl);
+
+        // Pokémon ID
+        const idEl = document.createElement('p');
+        idEl.classList.add('card-id');
+        idEl.innerText = `#${this.id}`;
+        card.appendChild(idEl);
+
+        // Pokémon Types
+        const typesEl = document.createElement('p');
+        typesEl.classList.add('card-types');
+        typesEl.innerText = `Type: ${this.types.join(', ')}`;
+        card.appendChild(typesEl);
+
+        // Pokémon Lore
+        const loreEl = document.createElement('p');
+        loreEl.classList.add('card-lore');
+        loreEl.innerText = this.lore;
+        card.appendChild(loreEl);
+
+        return card;
+    }
 }
 
 function getData() {
-    // your code goes here
     fetch('data.json')
-        // turn the json file into a javascript object
-        .then(function(response) {
-            return response.json();
-        })
-        // do stuff with the javascript object
+        .then(response => response.json())
         .then(data => {
-            console.log(data);
             displayCards(data);
-        });
+        })
+        .catch(err => console.error("Error loading JSON:", err));
 }
 
 function displayCards(cards) {
     // your code goes here
-    this.element.innerHTML = '';
-    
-    const titleEl = document.createElement('p');
-    titleEl.classList.add('book_title');
-    titleEl.innerText = this.title;
-    this.element.appendChild(titleEl);
-    // console.log(titleEl);
-
-    const authorEl = document.createElement('p');
-    authorEl.classList.add('book_author');
-    authorEl.innerText = this.author;
-    this.element.appendChild(authorEl);
-    // console.log(authorEl);
-
-    if (this.numCopies) {
-        const numCopiesEl = document.createElement('p');
-        numCopiesEl.classList.add('book_num_copies');
-        numCopiesEl.innerText = this.numCopies;
-        // console.log(numCopiesEl);
-        this.element.appendChild(numCopiesEl);
-    }
+    containerElement.innerHTML = '';
+    cards.forEach(pokemon => {
+        const card = new Card(
+            pokemon.id,
+            pokemon.name,
+            pokemon.types,
+            pokemon.lore,
+            pokemon.image
+        );
+        containerElement.appendChild(card.createCardElement());
+    })
 }
 
-// call your functions here
+//Run the Fetch function
+getData();
+
+
 
 
