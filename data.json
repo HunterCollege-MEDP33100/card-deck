@@ -1,40 +1,46 @@
 [
+    {
+    "name": "Juan Luis Guerra",
+    "number": "I",
+    "nationality": "Dominican",
+    "image": "images/juanluisguerra.jpg"
+  },
   {
     "name": "Bad Bunny",
-    "number": "I",
+    "number": "II",
+    "nationality": "Puerto Rican",
     "image": "images/badbunny.jpg"
   },
   {
     "name": "Rosalía",
-    "number": "II",
+    "number": "III",
+    "nationality": "Spanish",
     "image": "images/rosalia.jpg"
   },
   {
     "name": "Rauw Alejandro",
-    "number": "III",
+    "number": "IV",
+    "nationality": "Puerto Rican",
     "image": "images/rauwalejandro.jpg"
   },
   {
     "name": "Selena Quintanilla",
-    "number": "IV",
+    "number": "V",
+    "nationality": "American",
     "image": "images/selenaquintanilla.jpg"
   },
 
   {
     "name": "Jhayco",
-    "number": "V",
+    "number": "VI",
+    "nationality": "Puerto Rican",
     "image": "images/jhayco.jpg"
   },
 
   {
     "name": "Karol G",
-    "number": "VI",
-    "image": "images/karolg.jpg"
-  },
-
-  {
-    "name": "Nathy Peluso",
     "number": "VII",
-    "image": "images/nathypeluso.jpg"
+    "nationality": "Colombia",
+    "image": "images/karolg.jpg"
   }
 ]

@@ -23,6 +23,7 @@ class Card {
         this.name = artistData.name;
         this.number = artistData.number;
         this.image = artistData.image;
+        this.nationality = artistData.nationality; 
     }
 
     createCardElement() {
@@ -40,9 +41,15 @@ class Card {
         const name = document.createElement('h2');
         name.textContent = this.name;
 
+        
+        const nationality = document.createElement('p');
+        nationality.classList.add('artist-nationality');
+        nationality.textContent = this.nationality || '';
+
         card.appendChild(numberEl);
         card.appendChild(img);
         card.appendChild(name);
+        card.appendChild(nationality);
 
         return card;
     }
@@ -125,4 +132,5 @@ function animateCard(cardElement, direction, onAnimationEnd) {
 
 // call your functions here
 getData();
+
 
