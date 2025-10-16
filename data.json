@@ -2,39 +2,39 @@
   {
     "name": "Bad Bunny",
     "number": "I",
-    "image": ""
+    "image": "images/badbunny.jpg"
   },
   {
     "name": "Rosalía",
     "number": "II",
-    "image": ""
+    "image": "images/rosalia.jpg"
   },
   {
     "name": "Rauw Alejandro",
     "number": "III",
-    "image": ""
+    "image": "images/rauwalejandro.jpg"
   },
   {
     "name": "Selena Quintanilla",
     "number": "IV",
-    "image": ""
+    "image": "images/selenaquintanilla.jpg"
   },
 
   {
     "name": "Jhayco",
     "number": "V",
-    "image": ""
+    "image": "images/jhayco.jpg"
   },
 
   {
     "name": "Karol G",
     "number": "VI",
-    "image": ""
+    "image": "images/karolg.jpg"
   },
 
   {
     "name": "Nathy Peluso",
     "number": "VII",
-    "image": ""
+    "image": "images/nathypeluso.jpg"
   }
 ]
