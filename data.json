@@ -1,2 +1,26 @@
 [
+  {
+    "artist": "Joywave",
+    "image": "images/joywave.jpg"
+  },
+  {
+    "artist": "K.Flay",
+    "image": "images/kflay.jpg"
+  },
+  {
+    "artist": "iDKHOW",
+    "image": "images/idkhow.jpg"
+  },
+  {
+    "artist": "De'Wayne",
+    "image": "images/dewayne.jpg"
+  },
+  {
+    "artist": "Sego",
+    "image": "images/sego.jpg"
+  },
+  {
+    "artist": "of Montreal",
+    "image": "images/ofMontreal.jpg"
+  }
 ]
