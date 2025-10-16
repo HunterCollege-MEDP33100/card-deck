@@ -6,6 +6,7 @@ class Card {
     constructor(artistData) {
         // Store artist information
         this.name = artistData.name;
+        this.number = artistData.number;
         this.image = artistData.image;
     }
 
@@ -13,6 +14,11 @@ class Card {
         // Create the card container
         const card = document.createElement('div');
         card.classList.add('artist-card');
+
+        // Create number element (top of the card)
+        const numberEl = document.createElement('div');
+        numberEl.classList.add('artist-number');
+        numberEl.textContent = this.number;
 
         // Create and set the image
         const img = document.createElement('img');
@@ -24,6 +30,7 @@ class Card {
         name.textContent = this.name;
 
         // Append children
+        card.appendChild(numberEl);
         card.appendChild(img);
         card.appendChild(name);
 
@@ -37,6 +44,7 @@ function getData() {
     fetch('data.json')
         .then(response => response.json())
         .then(data => {
+            // Convert JSON into array of JS objects and loop through it
             displayCards(data);
         })
         .catch(error => console.error('Error loading JSON:', error));
@@ -47,7 +55,6 @@ function displayCards(cards) {
     // Clear container
     containerElement.innerHTML = '';
 
-    // call your functions here
     // Create card elements and append to container
     cards.forEach(artistData => {
         const card = new Card(artistData);
@@ -70,3 +77,4 @@ function displayCards(cards) {
 
 // call your functions here
 getData();
+
