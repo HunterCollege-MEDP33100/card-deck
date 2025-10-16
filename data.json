@@ -1,2 +1,27 @@
 [
+    {
+        "name": "Mercury",
+        "type": "Terrestrial Planet",
+        "image": "images/mercury.png"
+    },
+    {
+        "name": "Venus",
+        "type": "Terrestrial Planet",
+        "image": "images/venus.png"
+    },
+    {
+        "name": "Earth",
+        "type": "Terrestrial Planet",
+        "image": "images/earth.png"
+    },
+    {
+        "name": "Jupiter",
+        "type": "Gas Giant",
+        "image": "images/jupiter.png"
+    },
+    {
+        "name": "Saturn",
+        "type": "Gas Giant",
+        "image": "images/saturn.png"
+    }
 ]
