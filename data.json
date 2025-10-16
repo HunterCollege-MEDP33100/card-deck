@@ -1,2 +1,27 @@
 [
+    {
+        "name": "Fool",
+        "number": "0",
+        "image": "/images/fool.png"
+    },
+    {
+        "name": "Fortune",
+        "number": "1",
+        "image": "/images/fortune.png"
+    },
+    {
+        "name": "Justice",
+        "number": "2",
+        "image": "/images/justice.png"
+    },
+    {
+        "name": "Magician",
+        "number": "3",
+        "image": "/images/magician.png"
+    },
+    {
+        "name": "Priestess",
+        "number": "4",
+        "image": "/images/priestess.png"
+    }
 ]
