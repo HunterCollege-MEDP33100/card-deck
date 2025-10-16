@@ -1,2 +1,27 @@
 [
+    {
+        "number": "0",
+        "image": "assets/thefool.jpg",
+        "name": "The Fool"
+    },
+    {
+        "number": "I",
+        "image": "assets/themagician.jpg",
+        "name": "The Magician"
+    },
+    {
+        "number": "IX",
+        "image": "assets/thehermit.jpg",
+        "name": "The Hermit"
+    },
+    {
+        "number": "XI",
+        "image": "assets/justice.jpg",
+        "name": "Justice"
+    },
+    {
+        "number": "XVIII",
+        "image": "assets/themoon.jpg",
+        "name": "The Moon"
+    }
 ]
