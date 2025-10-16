@@ -5,42 +5,51 @@
     "nationality": "Dominican",
     "image": "images/juanluisguerra.jpg"
   },
+
   {
     "name": "Bad Bunny",
     "number": "II",
     "nationality": "Puerto Rican",
     "image": "images/badbunny.jpg"
   },
+
+  {
+    "name": "Romeo Santos",
+    "number": "III",
+    "nationality": "Dominican-Puerto Rican American",
+    "image": "images/romeosantos.jpg"
+  },
+
   {
     "name": "Rosalía",
-    "number": "III",
+    "number": "IV",
     "nationality": "Spanish",
     "image": "images/rosalia.jpg"
   },
   {
     "name": "Rauw Alejandro",
-    "number": "IV",
+    "number": "V",
     "nationality": "Puerto Rican",
     "image": "images/rauwalejandro.jpg"
   },
   {
     "name": "Selena Quintanilla",
-    "number": "V",
-    "nationality": "American",
+    "number": "VI",
+    "nationality": "Mexican-American",
     "image": "images/selenaquintanilla.jpg"
   },
 
   {
     "name": "Jhayco",
-    "number": "VI",
+    "number": "VII",
     "nationality": "Puerto Rican",
     "image": "images/jhayco.jpg"
   },
 
   {
     "name": "Karol G",
-    "number": "VII",
-    "nationality": "Colombia",
+    "number": "VIII",
+    "nationality": "Colombian",
     "image": "images/karolg.jpg"
   }
 ]
