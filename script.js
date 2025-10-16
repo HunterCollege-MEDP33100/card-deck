@@ -1,6 +1,22 @@
 // insert card elements here
 const containerElement = document.querySelector('.container');
 
+// Create arrow buttons dynamically
+const controls = document.createElement('div');
+controls.classList.add('controls');
+
+const leftArrow = document.createElement('button');
+leftArrow.classList.add('arrow', 'left-arrow');
+leftArrow.textContent = '←';
+
+const rightArrow = document.createElement('button');
+rightArrow.classList.add('arrow', 'right-arrow');
+rightArrow.textContent = '→';
+
+controls.appendChild(leftArrow);
+controls.appendChild(rightArrow);
+document.body.appendChild(controls);
+
 class Card {
     // your code goes here
     constructor(artistData) {
@@ -55,26 +71,33 @@ function displayCards(cards) {
     // Clear container
     containerElement.innerHTML = '';
 
-    // Create card elements and append to container
-    cards.forEach(artistData => {
+    [...cards].reverse().forEach(artistData => {
         const card = new Card(artistData);
         const cardElement = card.createCardElement();
 
-        // Add deck behavior on click
-        cardElement.addEventListener('click', () => {
-            cardElement.style.zIndex = 0;
-            cardElement.classList.add('to-back');
-
-            setTimeout(() => {
-                containerElement.appendChild(cardElement);
-                cardElement.classList.remove('to-back');
-            }, 400);
-        });
 
         containerElement.appendChild(cardElement);
     });
+
+    
+    rightArrow.addEventListener('click', () => {
+        const topCard = containerElement.lastElementChild;
+        if (topCard) {
+            moveCardToBack(topCard);
+        }
+    });
+}
+function moveCardToBack(cardElement) {
+    cardElement.style.zIndex = 0;
+    cardElement.classList.add('to-back');
+
+    setTimeout(() => {
+        containerElement.insertBefore(cardElement, containerElement.firstElementChild);
+        cardElement.classList.remove('to-back');
+    }, 400);
 }
 
 // call your functions here
 getData();
+
 
