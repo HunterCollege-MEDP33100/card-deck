@@ -17,6 +17,11 @@ controls.appendChild(leftArrow);
 controls.appendChild(rightArrow);
 document.body.appendChild(controls);
 
+const title = document.createElement('h1');
+title.textContent = 'My Favorite Artists'; 
+title.classList.add('page-title'); 
+document.body.insertBefore(title, document.querySelector('.container'));
+
 class Card {
     // your code goes here
     constructor(artistData) {
@@ -24,6 +29,7 @@ class Card {
         this.number = artistData.number;
         this.image = artistData.image;
         this.nationality = artistData.nationality; 
+    
     }
 
     createCardElement() {
