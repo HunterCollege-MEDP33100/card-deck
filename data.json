@@ -1,2 +1,40 @@
 [
+  {
+    "name": "Bad Bunny",
+    "number": "I",
+    "image": ""
+  },
+  {
+    "name": "Rosalía",
+    "number": "II",
+    "image": ""
+  },
+  {
+    "name": "Rauw Alejandro",
+    "number": "III",
+    "image": ""
+  },
+  {
+    "name": "Selena Quintanilla",
+    "number": "IV",
+    "image": ""
+  },
+
+  {
+    "name": "Jhayco",
+    "number": "V",
+    "image": ""
+  },
+
+  {
+    "name": "Karol G",
+    "number": "VI",
+    "image": ""
+  },
+
+  {
+    "name": "Nathy Peluso",
+    "number": "VII",
+    "image": ""
+  }
 ]
